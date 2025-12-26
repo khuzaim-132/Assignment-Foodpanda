@@ -63,8 +63,9 @@ body {
 }
 
 #magnifying-glass {
-    font-size: 22px;
-    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 0px;
     cursor: pointer;
 }
 

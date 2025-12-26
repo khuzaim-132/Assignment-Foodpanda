@@ -1,56 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoodPanda</title>
-        <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
     <!-- Responsive -->
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media.css" />
     <!-- Google Fonts -->
     <!-- POPPINS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- ROBOTO -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- PLAYFAIR DISPLAY -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <!-- ===== NAVBAR ===== -->
     <header class="navbar">
-        <div class="logo"><img src="./Images/i (4).svg" alt=""></div>
+      <div class="logo"><img src="./Images/i (4).svg" alt="" /></div>
 
-        <nav class="nav-links" id="navLinks">
-            <a href="/Assignment-Foodpanda/Home/index.html">Home</a>
-            <a href="/Assignment-Foodpanda/About/About.html">About</a>
-            <a href="#">Newsroom</a>
-            <a href="#">Partners</a>
-            <a href="#">Panda ads</a>
-            <a href="#">Contact</a>
-            <a href="#">Careers</a>
-            
+      <nav class="nav-links" id="navLinks">
+        <a href="/Assignment-Foodpanda/Home/index.html">Home</a>
+        <a style="border-top: 2px solid #ff2b84;" href="/Assignment-Foodpanda/About/About.html">About</a>
+        <a href="#">Newsroom</a>
+        <a href="#">Partners</a>
+        <a href="#">Panda ads</a>
+        <a href="#">Contact</a>
+        <a href="#">Careers</a>
+
         <button class="location-btn">Choose location</button>
         <i id="magnifying-glass" class="fa-solid fa-magnifying-glass"></i>
-        </nav>
+      </nav>
 
-
-
-        <!-- Mobile Menu Icon -->
-        <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+      <!-- Mobile Menu Icon -->
+      <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </header>
 
-</body>
+    <!-- HERO SECTION -->
+    <section>
+      <div class="hero-section">
+        <p class="para1">About foodpanda</p>
+      </div>
+    </section>
+
+    <p class="para2">From food delivery to your daily convenience companion.</p>
+    <p class="para3">
+      A subsidiary of Delivery Hero, foodpanda launched in Singapore in 2014 as
+      a food delivery platform. Dedicated to helping customers get their tasty
+      favourites fast, it quickly won the hearts and minds of customers in APAC.
+    </p>
+    <p class="para4">
+      Powered by tech and operational excellence, foodpanda has been growing its
+      quick-commerce footprint in more than 400 cities across 11 markets in Asia
+      – Singapore, Hong Kong, Thailand, Malaysia, Pakistan, Taiwan, Philippines,
+      Bangladesh, Laos, Cambodia, and Myanmar.
+    </p>
+    <p class="para4">
+      Thanks to dedicated partners, riders, and a team united by shared values,
+      foodpanda is now providing millions with a convenient way to get food and
+      groceries in a few taps.
+    </p>
+    <div class="card-text">
+      <div class="text-card">
+        <h3 class="heading-3">Customers come first</h3>
+        <p class="para1">
+          We’re far more than just swift food delivery. foodpanda enables
+          customers to pick up their takeaway meals, skip boring grocery trips
+          and send parcels. Customer needs are the core and centre of our
+          business. Download the app to experience true convenience.
+        </p>
+      </div>
+      <div class="img-card">
+        <img class="img1" src="./Images/i (5).webp" alt="" />
+      </div>
+    </div>
+
+    <div class="btn-part">
+      <h2 class="heading-2">Our values</h2>
+      <a href=""><button class="btn1">prioritise, decide, deliver</button></a>
+
+      <div class="btn-together">
+        <a href=""
+          ><button class="btn2">
+            start with customer, end with customer
+          </button></a
+        >
+
+        <a href=""><button class="btn3">own it end-to-end</button></a>
+      </div>
+      <div class="btn-together">
+        <a href=""><button class="btn2">challenge the status quo</button></a>
+
+        <a href=""><button class="btn3">we before me</button></a>
+      </div>
+      <a href=""
+        ><button class="btn1">plan for tomorrow, focus on today</button></a
+      >
+    </div>
+    <div class="card-text2">
+      <div class="text-card">
+        <h3 class="heading-4">own it end-to-end</h3>
+        <p class="para1">
+          We take pride in our work by delivering on our commitments. When a
+          problem stretches past our areas of responsibility or expertise, we
+          bridge the gap, we collaborate and seek out resources to get the job
+          done.
+        </p>
+      </div>
+      <div class="img-card">
+        <img class="img2" src="./Images/i (9).webp" alt="" />
+      </div>
+    </div>
+    <div class="card-text3">
+      <div class="text-card">
+        <h3 class="heading-3">Join the panda team!</h3>
+        <p class="para1">
+          Hungry for growth? There’s a seat at our table! We’re looking for the
+          best in tech, marketing, sales, logistics, account management and
+          more. Explore career opportunities at foodpanda now.
+        </p>
+        <button>view jobs</button>
+      </div>
+      <div class="img-card">
+        <img class="img1" src="./Images/i (6).webp" alt="" />
+      </div>
+    </div>
+    <!-- FOOTER SECTION -->
+    <footer>
+      <div class="footer-content">
+        <div class="logo">
+          <img src="./Images/i (4).svg" alt="" />
+        </div>
+        <div class="footer-list">
+          <div class="footer-list1">
+            <p class="bold"><a href="#"> Navigate</a></p>
+            <p><a href="/Assignment-Foodpanda/Home/index.html">Home</a></p>
+            <p class="bold2"><a href="#">About</a></p>
+            <p><a href="#">Contact</a></p>
+            <p><a href="#">Newsroom</a></p>
+          </div>
+          <div class="footer-list1">
+            <p class="bold"><a href="#"> Collaborate</a></p>
+            <p><a href="#"> Explore careers</a></p>
+            <p><a href="#">Become a rider</a></p>
+            <p><a href="#">Feed your team</a></p>
+          </div>
+          <div class="footer-icons">
+            <h4>Follow us on</h4>
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i><i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+        </div>
+        </div>
+
+        <p class="Copyright">Copyright © 2025 foodpanda</p>
+        
+        <p class="Privacy">Privacy Policy</p>
+    </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
 </html>

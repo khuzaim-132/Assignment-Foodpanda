@@ -43,7 +43,13 @@ body {
     font-weight: 600;
     margin-top: 10px;
 }
-
+.nav-links a:hover {
+    /* border on hover at the top of the window not on the word */
+    border-top: 2px solid #ff2b84;
+    margin: 0;
+    padding: 0;
+    transition: 0.1s all;
+}
 /* Right side */
 .location-btn {
     background: #ff2b84;
@@ -213,7 +219,7 @@ footer img{
     margin-bottom: 10px;
     text-decoration: none;
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 100px;
 }
 .links .link1 .para4 a{
@@ -221,5 +227,46 @@ footer img{
     font-size: 17px;
     margin-bottom: 20px;
     text-decoration: none;
+    margin-left: 0px;
+}
+.links .link2 .para3 a{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
     margin-left: 20px;
+}
+.links .link2 .para2 a{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.links .link2 .para4 a{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.icons p a{
+    color: #fff;
+    font-size: 23px;
+    margin-top: 50px;
+    text-decoration: none;
+    margin-left: 600px;
+    font-weight: bold;
+}   
+.icon{
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.para20{
+    color: white;
+    margin-left: 200px;
+    margin-top: 100px;
 }

@@ -1,51 +1,121 @@
-/* ===== TABLET ===== */
-@media (max-width: 1240px) {
-    .nav-links {
-        display: none;
+@media (max-width: 1400px) {
+    .navbar {
+        padding: 0 20px;
     }
 
-    .menu-icon {
-        display: block;
+    .logo img {
+        margin-left: 0;
     }
+
     .nav-links {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background: #fff;
-        flex-direction: column;
+        gap: 15px;
         align-items: center;
-        display: none;
-        padding: 20px 0;
-        gap: 20px;
     }
 
-    .hero-content h1 {
-        font-size: 46px;
+    .nav-links a {
+        font-size: 15px;
+        white-space: nowrap;
     }
 
     .location-btn {
-        padding: 10px 22px;
+        padding: 10px 18px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    #magnifying-glass {
+        font-size: 18px;
+        margin-left: 10px;
     }
 }
 
-/* ===== MOBILE ===== */
+@media (max-width: 1280px) {
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .location-btn {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo img {
+        margin-left: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+
+    .para-section .para1 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-left: 20px;
+    }
+
+    .hero-part2 {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    .hero-part2 .part1 .img1 {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .hero-part2 .part2 {
+        margin-left: 0;
+    }
+
+    .hero-part2 .part2 .para1,
+    .hero-part2 .part2 .para2,
+    .hero-part2 .part2 .btn1 {
+        margin-left: 0;
+    }
+
+    .images-part {
+        margin-left: 0;
+    }
+
+    footer img {
+        margin-left: 50px;
+    }
+
+    .links {
+        margin-left: 50px;
+        gap: 80px;
+    }
+
+    .icons p a,
+    .icon {
+        margin-left: 0;
+    }
+}
+
 @media (max-width: 768px) {
     .nav-links {
         position: absolute;
         top: 70px;
-        left: 0;
-        width: 100%;
+        right: 0;
         background: #fff;
         flex-direction: column;
-        align-items: center;
+        width: 100%;
         display: none;
         padding: 20px 0;
-        gap: 20px;
     }
 
     .nav-links a {
-        font-size: 18px;
+        padding: 10px 20px;
+        font-size: 16px;
     }
 
     .menu-icon {
@@ -54,21 +124,106 @@
 
     .location-btn,
     #magnifying-glass {
-        display: none;
+        margin: 10px 20px;
     }
 
     .hero {
-        padding-left: 25px;
+        padding-left: 20px;
+        height: 60vh;
     }
 
     .hero-content h1 {
-        font-size: 34px;
+        font-size: 40px;
+        margin-left: 0;
+    }
+
+    .para-section {
+        padding: 20px;
+    }
+
+    .para-section .para1 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-left: 0;
+    }
+
+    .hero-part2 {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    .hero-part2 .part2 .para1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .hero-part2 .part2 .para2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .images-part img {
+        width: 90px;
+        height: auto;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .carsoul-section .para1 {
+        font-size: 32px;
+    }
+
+    .carsoul-section .para2 {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+
+    .footer-section {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .part1 .img1 {
+        width: 100%;
+        height: auto;
+    }
+    footer img {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .links {
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 40px;
+    }
+
+    .icons p a {
+        font-size: 18px;
+    }
+
+    .icon {
+        font-size: 24px;
+    }
+
+    .para20 {
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 14px;
     }
 }
 
-/* ===== SMALL MOBILE ===== */
 @media (max-width: 480px) {
     .hero-content h1 {
-        font-size: 28px;
+        font-size: 32px;
+    }
+
+    .hero-part2 .part2 .para1 {
+        font-size: 26px;
+    }
+
+    .hero-part2 .part2 .btn1 {
+        font-size: 18px;
+        padding: 10px 22px;
     }
 }

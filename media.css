@@ -1,0 +1,74 @@
+/* ===== TABLET ===== */
+@media (max-width: 1240px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 46px;
+    }
+
+    .location-btn {
+        padding: 10px 22px;
+    }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .location-btn,
+    #magnifying-glass {
+        display: none;
+    }
+
+    .hero {
+        padding-left: 25px;
+    }
+
+    .hero-content h1 {
+        font-size: 34px;
+    }
+}
+
+/* ===== SMALL MOBILE ===== */
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 28px;
+    }
+}

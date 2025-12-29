@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'poppins',sans-serif;
 }
 
 body {
@@ -78,14 +79,228 @@ body {
     cursor: pointer;
 }
 
+h1{
+    margin-left: 140px;
+    margin-top: 100px;
+    font-size: 76.8px;
+    font-weight: 600;
+    color: #333a45;
+    
+    letter-spacing: -3px;
+}
+.flex-card{
+    display: flex;
+    background: #f0f3f5;
+    margin-left: 140px;
+    width: 85%;
+}
+.image{
+    width: 46%;
+    height: 430px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.text{
+    margin-left: 50px;
+}
+.text .para1{
+    color: #ff2b84;
+    font-size: 16px;
+    font-weight:600 ;
+    margin-top: 40px;
+}
+.text .para1 .span1{
+    color: #626770;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.text .para3{
+    font-size: 28px;
+    font-weight: 600;
+    color: #333a45;
+    line-height: 27px;
+    max-width: 450px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.text .para3:hover{
+    color: #ff2b84;
+}
 
+/* BUTTONS FLEX */
 
+.buttons-flex{
+    display: flex;
+    width: 100%;
 
+}
+.text .para1{
+    color: #333a45;
+    font-size: 28px;
+    font-weight: 400px;
+    margin-left: 90px;
+}
+.buttons{
+    margin-left: 140px;
+    margin-top: 45px;
+}
+.buttons .btn1{
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+.buttons .btn2{
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+.buttons .btn3{
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+.buttons .btn4{
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+.buttons .btn5{
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+.buttons .btn6{
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.buttons .btn7{
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid #ff2b84;
+    background-color: white;
+    color: #ff2b84;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+.buttons .btn7:hover{
+        color: #ff2b84;
+        background-color: #ffe3ef;
+}
+.buttons .btn1:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+/* CARDS */
+.cards{
+    display: flex;
+    margin-left: 140px;
+    gap: 33px;
+    margin-top: 20px;
+}
+.cards .card1{
+    width: 30%;
+    height: 550px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+.cards .card2{
+    width: 30%;
+    height: 550px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+
+}
+.cards .card3{
+    width: 30%;
+    height: 550px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+.card1 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.card2 img{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+.card3 img{
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+.cards .para1{
+    color: #ff2b84;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.cards .para2{
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: bolder;
+    line-height: 25px;
+    font-family: 'Poppins',sans-serif;
+}
+.cards .para3{
+    color: #333a45;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 40px;
+}
 footer{
     background-color: black;
     color: white;

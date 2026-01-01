@@ -1,0 +1,199 @@
+@media (max-width: 1200px) {
+  .logo img {
+    margin-left: 20px;
+  }
+
+  .hero-section h1,
+  .hero-section p,
+  .hero-section button {
+    margin-left: 40px;
+  }
+
+  .hero-part2 {
+    margin-left: 20px;
+  }
+
+  .hero-part2 .part1 .img1 {
+    width: 520px;
+    height: auto;
+  }
+
+  .cards {
+    margin-left: 40px;
+  }
+
+  .brands-flex {
+    margin-left: 20px;
+  }
+
+  .footer-content .logo img,
+  .footer-list1 p a,
+  .Copyright {
+    margin-left: 40px;
+  }
+
+  .footer-icons {
+    margin-left: 0;
+    text-align: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    padding: 20px;
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .hero-section {
+    height: auto;
+    padding-bottom: 80px;
+  }
+
+  .hero-section h1 {
+    font-size: 52px;
+    line-height: 55px;
+  }
+
+  .hero-section p {
+    font-size: 16px;
+    margin-top: 320px;
+  }
+
+  .hero-section button {
+    margin-top: 400px;
+  }
+
+  .flex {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hero-flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .hero2 {
+    height: auto;
+    padding-bottom: 60px;
+  }
+
+  .hero-part2 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .hero-part2 .part2 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-part2 .part2 .para1,
+  .hero-part2 .part2 .para2 {
+    text-align: center;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .cards .card1,
+  .cards .card2,
+  .cards .card3 {
+    width: 48%;
+  }
+
+  .card-area {
+    height: auto;
+    padding-bottom: 80px;
+  }
+
+  .text-btn {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .text-btn .para1,
+  .text-btn .btn1 {
+    margin: 0;
+  }
+
+  .footer-list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-list2 p a {
+    margin-left: 40px;
+  }
+
+  .Privacy {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+
+  .hero-section p {
+    font-size: 15px;
+  }
+
+  .para1 {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .hero-part2 .part1 .img1 {
+    width: 100%;
+  }
+
+  .cards {
+    margin-left: 20px;
+  }
+
+  .cards .card1,
+  .cards .card2,
+  .cards .card3 {
+    width: 100%;
+  }
+
+  .brands-flex img {
+    height: 70px;
+  }
+
+  .footer-content .logo img,
+  .footer-list1 p a,
+  .footer-list2 p a,
+  .Copyright,
+  .Privacy,
+  .footer-icons {
+    margin-left: 20px;
+  }
+}

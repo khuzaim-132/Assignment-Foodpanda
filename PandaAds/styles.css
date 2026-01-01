@@ -121,6 +121,26 @@ body {
     margin-left: 120px;
     padding: 12px 32px;
 }
+.para1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex .para1{
+    font-size: 45px;
+    font-family: 'poppins',sans-serif;
+
+}
+.flex .span1{
+    font-weight: 600;
+}
 footer{
     background-color: black;
     color: white;

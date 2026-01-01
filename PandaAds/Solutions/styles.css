@@ -116,15 +116,15 @@ body {
     justify-content: space-evenly;
 }
 .flex-box3 .img3{
-    height: 110px;
+    height: 300px;
 }
 
 .flex-box2 .img2{
-    height: 110px;
+    height: 300px;
 }
 
 .flex-box1 .img1{
-    height: 110px;
+    height: 600px;
 }
 .hero-flex .para1{
     font-size: 20px;

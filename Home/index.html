@@ -47,9 +47,17 @@
         </nav>
 
 
+<!-- Mobile Menu Icon -->
+<div class="menu-icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+</div>
+<script>
+const navLinks = document.getElementById('navLinks');
+function toggleMenu() {
+    navLinks.classList.toggle('active');
+}
+</script>
 
-        <!-- Mobile Menu Icon -->
-        <div class="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
     </header>
 
     <!-- ===== HERO SECTION ===== -->

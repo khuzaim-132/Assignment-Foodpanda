@@ -71,13 +71,7 @@ body {
     margin-left: 0px;
     cursor: pointer;
 }
-
-/* Mobile icon */
-.menu-icon {
-    display: none;
-    font-size: 26px;
-    cursor: pointer;
-}.fp-navbar {
+.fp-navbar {
   background: #fff;
   border-bottom: 1px solid #eee;
   font-family: Arial, sans-serif;
@@ -113,7 +107,7 @@ body {
 
 .fp-nav li a:hover {
     border-top: 2px solid #ff2b84;
-    transition: 0.1s ease;
+    transition: .1s ease;
 }
 
 /* dropdown */
@@ -143,7 +137,6 @@ body {
   border: 1px solid #ddd;
   min-width: 180px;
   list-style: none;
-  z-index: 1;
 }
 
 .dropdown-menu li a {
@@ -162,121 +155,42 @@ body {
   display: block;
 }
 
-
-
-.hero-section{
-    width: 100%;
-    height: 700px;
-    position: relative;
-    background-image: url(./Images/imgi_47_foodpanda-panda-ads.webp);
-}
-.hero-section img{
-    width: 100%;
-    height: 100%;
-}
-.hero-section h1{
-    color: white;
-    position: absolute;
-    margin-top: 180px;
-    line-height: 59px;
-    font-size: 76.8px;
-    margin-left: 120px;
+/* search icon */
+.search {
+  margin-left: auto;
+  font-size: 18px;
+  color: #222;
+  cursor: pointer;
 }
 
-.hero-section p{
-    color: white;
-    position: absolute;
-    margin-top: 340px;
-    line-height: 29px;
-    font-size: 18px;
-    margin-left: 120px;
+.search:hover {
+  color: #D70F64;
 }
 
-.hero-section button{
-    color: #ff2b84;
-    background-color: white;
-    border-radius: 25px;
-    border: none;
-    position: absolute;
-    margin-top: 440px;
-    line-height: 29px;
-    font-size: 20px;
+
+.text-flex h1{
+    font-size: 48px;
     font-weight: bold;
-    margin-left: 120px;
-    padding: 12px 32px;
+    color: black;
+    margin-left: 140px;
 }
-.para1{
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Poppins',sans-serif;
-    line-height: 35px;
-    text-align: center;
-    margin-top: 100px;
-}
-.flex{
-    display: flex;
-    justify-content: space-evenly;
-}
-.flex .para1{
-    font-size: 45px;
-    font-family: 'poppins',sans-serif;
-
-}
-.flex .span1{
-    font-weight: 600;
-}
-.hero2{
-    margin-top: 100px;
-    width: 100%;
-    height: 500px;
-    text-align: center;
+.text-flex{
+    text-align: left;
+    margin-top: 30px;
     background-color: #f5f5f5;
+    height: 200px;
 }
-.hero2 .para2{
-    font-size: 40px;
-    font-weight:bold;
-}
-.hero-flex{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-.flex-box3 .img3{
-    height: 110px;
+.text-flex p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 140px;
 }
 
-.flex-box2 .img2{
-    height: 110px;
-}
 
-.flex-box1 .img1{
-    height: 110px;
-}
-.hero-flex .para1{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.hero-flex .para2{
-    font-size: 18px;
-    max-width: 400px;
-    font-weight: 300;
-    font-family: 'Poppins',sans-serif;
-    color: #000026;
-    margin-top: 20px;
-
-}
-h1{
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Poppins',sans-serif;
-    font-size: 40px;
-}
-   
 .hero-part2{
     display: flex;
     margin-top: 180px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .hero-part2 .part2{
     margin-left: 60px;
@@ -309,6 +223,16 @@ h1{
     max-width: 600px;
     word-spacing: 1px;
 }
+.hero-part2 .part1 .para1 {
+    font-size: 40px;
+    color: #000;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 60px;
+    text-align: left;
+    margin-left: 50px;
+}
 .hero-part2 .part2 .btn1 {
     background: #ff2b84;
     color: #fff;
@@ -324,100 +248,34 @@ h1{
     background: #e28bb1;
     transition: 0.3s all;
 }
-
-
-/* CARDS */
-.cards{
-    display: flex;
-    margin-left: 140px;
-    gap: 33px;
-    margin-top: 20px;
-}
-.cards .card1{
-    width: 30%;
-    height: 550px;
-    background-color: #fff;
-    border-radius: 10px;
-}
-.cards .card2{
-    width: 30%;
-    height: 550px;
-    border-radius: 10px;
-    background-color: #fff;
-    
-
-}
-.cards .card3{
-    width: 30%;
-    height: 550px;
-    background-color: #fff;
-    border-radius: 10px;
-}
-.card1 img{
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
-}
-.card2 img{
-    width: 100%;
-    border-radius: 10px;
-    height: 300px;
-}
-.card3 img{
-    width: 100%;
-    border-radius: 10px;
-    height: 300px;
-}
-.cards .para1{
-    color: #ff2b84;
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 16px;
-    font-weight: 700;
-}
-.cards .para2{
-    color: black;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 28px;
-    font-weight: bolder;
-    line-height: 25px;
-    font-family: 'Poppins',sans-serif;
-}
-.cards .para3{
-    color: #333a45;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 20px;
-    margin-top: 40px;
-}
-
-.card-area{
-    background-color: #f5f5f5;
-    width: 100%;
-    height: 800px;
-    margin-bottom: 50px;
-}
-
-.cards .btn1 {
+.hero-part2 .part1 .btn1 {
     background: #ff2b84;
     color: #fff;
     border: none;
-    padding: 10px 25px;
+    padding: 12px 30px;
     border-radius: 25px;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
     margin-top: 30px;
+    margin-left: 50px;
 }
-.hero-part2 .btn1:hover {
+.hero-part2 .part1 .btn1:hover {
     background: #e28bb1;
     transition: 0.3s all;
 }
+
+.part2 img{
+  width: 650px;
+  height: 400px;
+  margin-top: -20px;
+  border-radius: 25px;
+}
+
 .text-btn{
     display: flex;  
     justify-content: space-between;
-    background-color: #fcf2f7;
+    background-color: #ff2b84;
     width: 100%;
     height: 180px;
     margin-top: 100px;
@@ -430,31 +288,27 @@ h1{
 .text-btn .para1{
     margin-top: -10px;
     margin-left: 140px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
 }
 .text-btn .btn1 {
-    background: #ff2b84;
-    color: #fff;
+    background: white;
+    color: #ff2b84;
     border: none;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 16px;
     height: 52px;
     width:152px;
     font-weight: 600;
     cursor: pointer;
-    margin-top: -10px;
+    margin-top: 0px;
     margin-right: 100px;
 }
 .text-btn .btn1:hover {
     background: #e28bb1;
     transition: 0.3s all;
 }
-
-
-
-
-
-
-
 
 
 
@@ -530,3 +384,13 @@ footer{
     font-size: 25px;
     margin-top: 5px;
 }
+
+
+
+
+
+
+
+
+
+

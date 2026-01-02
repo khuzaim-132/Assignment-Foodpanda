@@ -1,0 +1,220 @@
+/* ===============================
+   MOBILE FIRST RESPONSIVE
+=============================== */
+
+/* Small devices - phones */
+@media (max-width: 767px) {
+
+    /* NAVBAR */
+    .fp-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .btn1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .search {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* HERO TEXT */
+    .text-flex {
+        text-align: center;
+        margin-left: 0;
+        padding: 30px 15px;
+        height: auto;
+    }
+
+    .text-flex h1 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .text-flex p {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    /* HERO CARDS */
+    .hero-part2 {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 30px;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-part2 .part2 {
+        margin-left: 0;
+    }
+
+    .hero-part2 .part2 .para1 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .hero-part2 .part2 .para2 {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-part2 .part1 img,
+    .hero-part2 .part2 img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        border-radius: 10px;
+    }
+
+    .hero-part2 .btn1 {
+        width: 80%;
+        margin: 15px auto 0;
+    }
+
+    /* CTA SECTION */
+    .text-btn {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .text-btn .para1 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .text-btn .btn1 {
+        margin-right: 0;
+    }
+
+    /* FOOTER */
+    .footer-content {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-list1 p a,
+    .footer-list2 p a {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .footer-icons {
+        margin-left: 0;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .Copyright,
+    .Privacy {
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 14px;
+    }
+}
+
+/* Medium devices - tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .text-flex h1 {
+        font-size: 32px;
+    }
+
+    .text-flex p {
+        font-size: 16px;
+    }
+
+    .hero-part2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 20px;
+        gap: 20px;
+    }
+
+    .hero-part2 .part2 .para1 {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .hero-part2 .part2 .para2 {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .hero-part2 .part1 img,
+    .hero-part2 .part2 img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+
+    .text-btn .para1 {
+        font-size: 28px;
+    }
+}
+
+/* Large devices - desktop */
+@media (min-width: 1025px) {
+
+    .text-flex h1 {
+        font-size: 48px;
+    }
+
+    .text-flex p {
+        font-size: 16px;
+    }
+
+    .hero-part2 .part2 .para1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-part2 .part2 .para2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .hero-part2 .part1 img,
+    .hero-part2 .part2 img {
+        width: 650px;
+        height: 400px;
+    }
+
+    .text-btn .para1 {
+        font-size: 40px;
+    }
+
+    .text-btn .btn1 {
+        width: 150px;
+        font-size: 16px;
+    }
+}
